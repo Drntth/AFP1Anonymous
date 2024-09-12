@@ -8,7 +8,7 @@
 
 ## Csapattagok
 
-+
++ Plasku Dominik (AEEBES)
 
 
 ---

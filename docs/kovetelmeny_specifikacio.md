@@ -20,6 +20,16 @@ a felhasználók számára egyszerű és élvezetes hozzáférést biztosítunk 
 
 ## 3. Vágyálomrendszer
 
+Célunk, hogy a legmegbízhatóbb és legolvasottabb online újság legyünk az ország számára.
+Olyan tartalmakat szeretnénk készíteni, amelyek nemcsak informálnak, szórakoztatnak, 
+hanem releváns, naprakész információkat nyújtanak a világ és a hazai eseményekről.
+Egy olyan közösséget szeretnénk építeni, ahol az olvasók szabadon kifejezhetik véleményüket 
+és részt vehetnek a közbeszédben. Olyan jövőt szeretnénk, ahol a fiatalok informáltak, 
+elkötelezettek és aktívan alakítják a világot. Első projektként szeretnénk egy átlátható, 
+felhasználóbarát híroldalt létrehozni melyben html, css, javascript és php ismereteinket 
+használnánk fel. A függetlenség, a hitelesség, a nyitottság és a szolidaritás értékeire 
+építve szeretnénk hosszú távon is sikeres és fenntartható hírportál lenni.
+
 ## 4. Jelenlegi üzleti folyamatok modellje
 
 ## 5. Igényelt üzleti folyamatok modellje

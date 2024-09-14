@@ -9,6 +9,7 @@
 ## Csapattagok
 
 + Plasku Dominik (AEEBES)
++ Cserni Boglárka Anna (MVTNRT)
 
 
 ---

@@ -2,6 +2,20 @@
 
 ## 1. Áttekintés
 
+A projekt célja, hogy egy egyszerű, felhasználóbarát híroldal létrehozása, amely friss híreket
+szolgáltat az olvasók számára különböző országos és nemzetközi témákban.
+
+Az oldal célja, hogy gyorsan közöljön aktuális híreket, megbízható forrásokból.
+
+**A híroldal főbb jellemzői:**
+- Reszponzív dizájn, amely optimalizált megjelenítést biztosít mind asztali gépeken, mind mobil eszközökön.
+- Könnyen használható kategóriarendszer a hírek gyors szűréséhez és kereséséhez.
+- Keresőmező segítségével könnyedén megtalálhatóvá váljon egy-egy adott cikk.
+- Felhasználói profil létrehozása.
+
+Az oldal üzemeltetésének célja hogy hiteles, független és széles körű tájékoztatást nyújtsunk olvasóinknak a legfrissebb hírekről, miközben
+a felhasználók számára egyszerű és élvezetes hozzáférést biztosítunk az információkhoz.
+
 ## 2. A jelenlegi helyzet leírása
 
 ## 3. Vágyálomrendszer

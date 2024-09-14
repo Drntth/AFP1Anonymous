@@ -4,6 +4,14 @@
 
 ## Leírás
 
+Egy egyszerű, felhasználóbarát híroldal, amely számtalan témában kínál aktualitásokat az olvasók számára.
+Ennek létrehozásához a következő technológiákat használjuk:
+
++ HTML és CSS
++ JavaScript
++ PHP / SQL 
++ Xamp / PHPMyAdmin
+
 ---
 
 ## Csapattagok

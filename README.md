@@ -10,7 +10,7 @@
 
 + Plasku Dominik (AEEBES)
 + Cserni Boglárka Anna (MVTNRT)
-
++ Borsodi István (F0M774)
 
 ---
 

@@ -19,6 +19,7 @@ Ennek létrehozásához a következő technológiákat használjuk:
 + Plasku Dominik (AEEBES)
 + Cserni Boglárka Anna (MVTNRT)
 + Borsodi István (F0M774)
++ Nagy Péter (TDNLEN)
 
 ---
 

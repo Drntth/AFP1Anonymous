@@ -45,8 +45,19 @@ használnánk fel. A függetlenség, a hitelesség, a nyitottság és a szolidar
 építve szeretnénk hosszú távon is sikeres és fenntartható hírportál lenni.
 
 ## 4. Jelenlegi üzleti folyamatok modellje
+A híroldal jelenlegi működése a következőképpen néz ki:
+1.	Hírek közzététele: A szerkesztők különböző forrásokból gyűjtik össze a híreket, amiket megszerkesztenek, majd feltöltenek az oldalra. Jelenleg ez manuális folyamat, ami több lépésből áll: az anyagok összegyűjtése, szerkesztése és végül publikálása.
+2.	Felhasználói tevékenységek: Az oldal látogatói böngészhetnek a hírek között, de nem szükséges regisztrálniuk. Keresőmező és kategóriák segítik a felhasználókat abban, hogy gyorsan megtalálják a számukra érdekes híreket.
+3.	Oldal karbantartása: A technikai csapat gondoskodik az oldal folyamatos működéséről, a hibák javításáról és a frissítések elvégzéséről. A dizájn és a funkciók fejlesztése is folyamatosan történik.
+4.	Reklámok kezelése: Az oldal bevételei reklámokból származnak, amiket külső partnerek szolgáltatnak. Az adminisztrátorok kezelik a reklámfelületeket.
 
 ## 5. Igényelt üzleti folyamatok modellje
+A tervezett híroldal működését a következőképpen szeretnénk fejleszteni:
+1.	Automatikus hírek megjelenítése: Bevezetünk egy rendszert, ami automatikusan gyűjt és publikál friss híreket megbízható forrásokból. Ez gyorsítja a hírek megjelenését, és csökkenti a szerkesztők munkáját.
+2.	Felhasználói funkciók bővítése: A felhasználók regisztrálhatnak, létrehozhatnak egyéni fiókokat, ahol elmenthetik kedvenc híreiket. Ezen kívül lehetőségük lesz kommentelni és véleményt nyilvánítani a cikkek alatt.
+3.	Reklámok és bevételek kezelése: A jövőben személyre szabott reklámokat jelenítünk meg, amik a felhasználói szokásokhoz igazodnak. Ezen kívül lehetőség lesz szponzorált tartalmak megjelenítésére és prémium szolgáltatások (pl. reklámmentes verzió) bevezetésére is.
+4.	Adminisztráció és moderálás: A fejlesztések révén az adminisztrátorok könnyebben kezelhetik majd az oldalt és a felhasználói fiókokat. Automatikus rendszer segíti a hozzászólások moderálását is, hogy kiszűrje a nem megfelelő tartalmakat.
+5.	Felhasználói szokások elemzése: Az oldal jobb működése érdekében részletes adatokat fogunk gyűjteni arról, hogy a látogatók mit olvasnak és mi érdekli őket. Ez alapján személyre szabott ajánlásokat tudunk majd adni nekik.
 
 ## 6. Követelménylista
 

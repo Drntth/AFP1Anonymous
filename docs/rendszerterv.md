@@ -34,10 +34,42 @@ A rendszer célja tehát egy gyors, átlátható és megbízható hírportál l�
 |Program                  |Alapfunkciók elkészítése                |         3 |             8 |                      8 |                8 |                   8 |
 |Program                  |Tesztelés                               |         4 |             2 |                      2 |       
 ## 3. Üzleti folyamatok modellje
+Az üzleti folyamatok modellje bemutatja, hogyan működik a híroldal, kik vesznek részt a működésben, és hogyan kapcsolódnak egymáshoz az egyes szereplők és folyamatok. Az alábbiakban részletezzük az oldal működéséhez szükséges üzleti szereplőket és a kapcsolódó folyamatokat.
 
 ### 3.1 Üzleti szereplők
+Olvasók (Látogatók): Ők az oldal elsődleges célcsoportjai, akik a különböző híreket böngészik, keresnek, és olvasnak. Nem szükséges regisztrálniuk, de regisztráció nélkül is hozzáférnek a legtöbb tartalomhoz.
+
+Regisztrált felhasználók: Azok a látogatók, akik létrehoztak egy fiókot az oldalon. Ők hozzáférhetnek extra funkciókhoz, például a kedvenc cikkek mentéséhez, személyre szabott hírekhez, illetve kommentelhetnek a cikkekhez.
+
+Moderátorok: Feladatuk a felhasználói hozzászólások kezelése, ellenőrzése és moderálása annak érdekében, hogy a tartalom megfeleljen az oldal szabályainak és etikettjének.
+
+Tartalomszolgáltatók (Hírszerzők): Az oldal számára híreket szolgáltató külső források, amelyek lehetnek újságok, híroldalak, vagy más hírügynökségek. Feladatuk az aktuális hírek összegyűjtése és közzététele az oldalon.
+
+Adminisztrátorok: Az oldal működtetéséért felelős személyek, akik technikai karbantartást végeznek, felügyelik a rendszert, és biztosítják a platform zavartalan működését.
+
+Reklámozók: Külső partnerek, akik az oldalon hirdetéseket jelenítenek meg. Céljuk, hogy elérjék az oldal látogatóit különböző reklámokkal, és növeljék saját márkájuk vagy termékeik láthatóságát.
 
 ### 3.2 Üzleti folyamatok
+Hírek gyűjtése és közzététele:
+
+A híreket a tartalomszolgáltatók gyűjtik össze, és az adminisztrátorok vagy automatizált rendszerek töltik fel az oldalra. A hírek megjelenése valós időben történik, így az olvasók mindig aktuális információkat kapnak.
+Felhasználói regisztráció és bejelentkezés:
+
+A látogatók létrehozhatnak egy felhasználói fiókot, amely során megadják a személyes adataikat (pl. e-mail cím, jelszó). A bejelentkezés után hozzáférhetnek olyan funkciókhoz, mint a kedvencek mentése és a hozzászólások írása.
+Kedvencek mentése és személyre szabott tartalom:
+
+A regisztrált felhasználók elmenthetik kedvenc cikkeiket, és egy személyre szabott híroldalt kapnak, amely az érdeklődési köreik alapján válogatja össze a tartalmakat.
+Kommentelés és moderálás:
+
+A felhasználók hozzászólhatnak a cikkekhez, megoszthatják véleményüket. A moderátorok feladata, hogy ellenőrizzék a hozzászólásokat, kiszűrjék a nem megfelelő tartalmakat, és biztosítsák a közösségi normák betartását.
+Hirdetések megjelenítése:
+
+A reklámozók hirdetéseket helyezhetnek el az oldalon, amelyek különböző helyeken (pl. bannerek, cikkek között) jelennek meg. A rendszer automatikusan kezeli a hirdetések megjelenítését a felhasználói tevékenység alapján.
+Adatok gyűjtése és elemzése:
+
+Az oldal folyamatosan gyűjti a felhasználói viselkedésre vonatkozó adatokat (pl. mely cikkeket olvassák a legtöbben), hogy a tartalmakat és az oldalt folyamatosan optimalizálni lehessen. Az elemzéseket az adminisztrátorok és elemzők használják fel.
+Ezek a folyamatok biztosítják, hogy a rendszer zökkenőmentesen működjön, és folyamatosan képes legyen kielégíteni a felhasználói igényeket, miközben fenntartható üzleti modellként funkcionál.
+
 
 ## 4. Követelmények
 

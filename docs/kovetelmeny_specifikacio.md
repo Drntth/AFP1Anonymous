@@ -47,3 +47,16 @@ használnánk fel. A függetlenség, a hitelesség, a nyitottság és a szolidar
 | :#7: | Felhasználók | Kedvencek | Kedvenc híreinket megjelölhetjük és külön listán láthatjuk. | 
 
 ## 7. Fogalomtár
+
+- Főoldal: Az oldal első, általában legfontosabb része, ahonnan a többi oldalra lehet navigálni.
+- Navigációs sáv: A weboldal tetején vagy oldalán található menü, amely segíti a felhasználót az oldal különböző részei között közlekedni.
+- Menüpontok: A navigációs sávban található elemek, amelyek a különböző kategóriákat vagy oldalakat jelölik.
+- Bejelentkezési képernyő: Az a felület, ahol a felhasználó a felhasználónevét és jelszavát megadva beléphet a rendszerbe.
+- Független: Nem áll szoros kapcsolatban semmilyen politikai vagy gazdasági erővel, így a hírek objektivitása biztosítható.
+- Fenntartható: Olyan, amely hosszú távon is működőképes és sikeres.
+- Kategóriarendszer: A híreket témák szerint csoportosítja, megkönnyítve a keresést.
+- HTML, CSS, JavaScript, PHP: Webfejlesztéshez használt programozási nyelvek.
+- Üzemeltetés: Az oldal működtetéséhez szükséges feladatok összessége (tartalomfeltöltés, karbantartás, stb.).
+- Reszponzív dizájn: Az oldal automatikusan alkalmazkodik a különböző képernyőméretekhez (számítógép, tablet, mobiltelefon).
+- Megbízható forrás: Olyan forrás, amelyről feltételezhető, hogy a benne szereplő információk helyesek és hitelesek.
+- Tartalom: A weboldalon megjelenő szövegek, képek, videók stb. összessége.

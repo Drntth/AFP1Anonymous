@@ -1,5 +1,14 @@
 # Rendszerterv
 ## 1. A rendszer célja
+A rendszer célja, hogy egy könnyen használható, gyorsan frissülő, megbízható híroldalt hozzunk létre, amely széles körű tájékoztatást nyújt a hazai és nemzetközi eseményekről. A felhasználók számára egyszerű hozzáférést biztosítunk a legfrissebb hírekhez, egy könnyen átlátható felületen keresztül, ahol különböző kategóriák és keresési lehetőségek segítségével gyorsan megtalálhatják a számukra érdekes tartalmakat.
+
+A rendszer lehetőséget biztosít arra is, hogy a felhasználók saját fiókot hozzanak létre, kedvenc cikkeiket elmentsék, és személyre szabott tartalmakat kapjanak. Célunk továbbá, hogy egy közösségi platformot alakítsunk ki, ahol a felhasználók hozzászólhatnak a cikkekhez, és részt vehetnek a diskurzusban.
+
+Ami nem cél:
+A rendszer nem fog részletes elemzéseket, vagy hosszú távú kutatásokat publikálni, csupán napi aktuális híreket biztosít.
+Nem tervezünk mély integrációt közösségi média platformokkal, az oldal közösségi funkciói elsősorban a hírekhez kapcsolódnak.
+Nem célunk, hogy minden forrásból származó hírt automatikusan megjelenítsünk, csak a megbízható, hiteles forrásokat használjuk.
+A rendszer célja tehát egy gyors, átlátható és megbízható hírportál létrehozása, amely releváns, naprakész információkat nyújt a felhasználóknak.
 
 ## 2. Projektterv
 

@@ -27,6 +27,26 @@ Felhasználói adatok: Jelenleg nincs regisztrációhoz kötve a böngészés, d
 Ez a jelenlegi működési modell manuálisan zajlik, a jövőbeni cél az, hogy több folyamatot automatizáljunk, és javítsuk a felhasználói élményt.
 
 ## 4. Igényelt üzleti folyamatok modellje
+Üzleti szereplők
+Regisztrált felhasználók: Az olvasók regisztrálhatnak majd, így saját fiókot hozhatnak létre, ahol elmenthetik a kedvenc cikkeiket, és személyre szabott tartalmakat kapnak.
+Moderátorok: Ők ellenőrzik a kommenteket, és eltávolítják azokat, amelyek nem felelnek meg az oldal szabályainak.
+Automatikus hírgyűjtők: Egy rendszer, amely automatikusan összeszedi az aktuális híreket különböző forrásokból, hogy a szerkesztőknek kevesebb dolguk legyen.
+Elemzők: Ők figyelik, hogy az oldal hogyan teljesít, és adatokat gyűjtenek arról, hogy a felhasználók mit csinálnak az oldalon, hogy folyamatosan javíthassuk a szolgáltatásainkat.
+Üzleti folyamatok
+Automatikus hírszerzés: Egy új rendszer segítségével a hírek automatikusan kerülnek majd az oldalra különböző forrásokból, így mindig naprakészek leszünk, és a szerkesztők csak a minőséget ellenőrzik.
+
+Felhasználói fiókok és kedvencek kezelése: A regisztrált felhasználók saját fiókot kapnak, ahol elmenthetik kedvenc cikkeiket, és személyre szabott tartalmakat is kapnak majd az érdeklődési körük alapján.
+
+Személyre szabott reklámok: A felhasználók tevékenysége alapján személyre szabott hirdetéseket jelenítünk meg, így ők is relevánsabb hirdetéseket látnak, és az oldal is több bevételhez jut.
+
+Kommentelés és moderálás: A felhasználók hozzászólhatnak majd a cikkekhez, és egy moderátorcsapat gondoskodik arról, hogy a hozzászólások kulturáltak és szabályosak legyenek.
+
+Adatok gyűjtése és elemzése: A felhasználói viselkedésről adatokat gyűjtünk (például melyik cikkeket olvassák a legtöbben), hogy az oldal folyamatosan fejlődjön és minél jobban megfeleljen az olvasók igényeinek.
+
+Üzleti entitások
+Felhasználói fiókok: Minden regisztrált felhasználónak lesz saját fiókja, ahol kezelheti a kedvenc cikkeinek listáját, és személyre szabott híreket kap.
+Automatikusan frissülő hírek: A hírek nagy része automatikusan kerül fel az oldalra, ami gyorsabbá és hatékonyabbá teszi a friss tartalmak megjelenítését.
+Reklámmentes opció: Lehetőség lesz előfizetni egy reklámmentes szolgáltatásra, amely prémium élményt nyújt a felhasználóknak.
 
 ## 5. Követelménylista
 

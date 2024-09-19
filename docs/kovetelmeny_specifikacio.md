@@ -18,6 +18,20 @@ a felhasználók számára egyszerű és élvezetes hozzáférést biztosítunk 
 
 ## 2. A jelenlegi helyzet leírása
 
+A híroldal feljeltése jelengleg kezdetleges fázisban áll, azonban a projekt célja egy modern, reszponzív weboldal lértehozása, amely képes kiszolgálni a felhasználók igényeit. Az oldal technológia hátterét már meghatázorztuk, amely a következő technológiákra épül:
+
+- **HTML:** Az oldal alapvető szerkezete statikus HTML segítségével lesz megvalósítva. A HTML struktúra biztosítja az oldal fő tartalmi blokkjainak felépítését, beleértve a hírek listáját, egyedi hírbejegyzéseket, valamint az oldal navigációját és egyéb statikus elemeket.
+
+- **CSS:** Az oldal megjelenésének formázásához CSS-t használunk, amely biztosítja a reszponzív dizájnt, hogy az oldal mobiltelefonokon és tableteken is megfelelően jelenjen meg. A cél egy letisztult, felhasználóbarát felület kialakítása, amely reszponzívan alkalmazkodik a különböző képernyőméretekhez.
+
+- **JavaScript:** A felhasználói élményt fokozó interaktív elemek, mint például a dinamikus tartalombetöltés, keresés JavaScript használatával kerülnek megvalósításra. Az oldal interaktivitásának biztosításához szükség lesz további JavaScript könyvtárak és API-k integrálására is.
+
+- **PHP és SQL:** A híroldal dinamikus tartalomkezeléséhez PHP-t fogunk használni. A hírek és a felhasználói adatok kezelésére egy adatbázisrendszer, valószínűleg MySQL, lesz integrálva, amely lehetővé teszi a tartalom könnyű frissítését és kezelését. A PHP fogja biztosítani a tartalmak dinamikus generálását és az adatbázisból való betöltést.
+
+Az oldal fejlesztése a tervek szerint több szakaszban valósul meg, ahol az első lépés a HTML struktúra és alapvető CSS stílusok létrehozása lesz, majd ezt követően a PHP és JavaScript integrálása, végül pedig az adatbázis- és backend funkciók kialakítása.
+
+A jelenlegi helyzet alapján a fejlesztési folyamat még a tervezési fázisban van, ahol a technológiai követelmények, dokumentációk és a funkciók meghatározása történik. Célunk egy könnyen kezelhető, modern híroldal létrehozása, amely skálázható és reszponzív, valamint képes megfelelni a modern hírfogyasztói elvárásoknak.
+
 ## 3. Vágyálomrendszer
 
 Célunk, hogy a legmegbízhatóbb és legolvasottabb online újság legyünk az ország számára.

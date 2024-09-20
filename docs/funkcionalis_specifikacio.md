@@ -86,6 +86,18 @@ Reklámmentes opció: Lehetőség lesz előfizetni egy reklámmentes szolgáltat
 
 ## 6. Használati esetek
 
+- **ADMIN:**
+Az admin feladata a rendszer felügyelete, beleértve a különböző szerepkörök hibamentes működésének ellenőrzését azáltal, hogy bármely szerepkörbe be tud lépni. Az admin korlátlan hozzáféréssel rendelkezik a rendszerhez, így módosíthatja a felhasználók profiljait, például a jogosultságaikat, szerepkörüket, felhasználónevüket és jelszavukat.
+Emellett új felhasználókat adhat a rendszerhez, vagy törölhet már meglévőket. Joguk van bejegyzéseket módosítani, törölni. Illetve kommenteket törölni.
+
+- **FELHASZNÁLÓ:**
+A felhasználó megtekintheti az oldalon megjelenő tartalmat, és lehetősége van saját bejegyzéseket létrehozni amennyiben rendelkezik megfelelő jogosultságokkal.
+Ezenkívül a felhasználó szerkesztheti és törölheti a saját bejegyzéseit, kommenteket írhat a cikkekhez, bejegyzésekhez amennyiben van reagálásra lehetőség.
+
+- **MEGTEKINTŐ:**
+A megtekintő hozzáférést kap az oldalon való navigáláshoz, cikkekhez, kategóriákhoz és ezeket szabadon olvashatja, viszont felhasználió profil hiányában nem tud
+cikkeket létrehozni, szerkeszteni, törölni, illetve amennyiben hozzászólási lehetőséggel rendelkezik egy bejegyzés azokra nem tud reagálni, kommentet írni.
+
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
 ## 8. Képernyőtervek

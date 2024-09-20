@@ -11,6 +11,7 @@ Nem célunk, hogy minden forrásból származó hírt automatikusan megjeleníts
 A rendszer célja tehát egy gyors, átlátható és megbízható hírportál létrehozása, amely releváns, naprakész információkat nyújt a felhasználóknak.
 
 ## 2. Projektterv
+Az online híroldal célja, hogy egy egyszerűen használható, reszponzív és gyorsan frissülő weboldalt hozzunk létre, amely megbízható híreket kínál hazai és nemzetközi témákban. Az oldal lehetőséget nyújt a felhasználóknak, hogy regisztráljanak, elmentsék kedvenc cikkeiket, és részt vegyenek a közösségi diskurzusban.
 
 ### 2.1 Projektszerepkörök, felelőségek:
    * Scrum masters:
@@ -18,9 +19,8 @@ A rendszer célja tehát egy gyors, átlátható és megbízható hírportál l�
    * Üzleti szereplő:
      
 ### 2.2 Projektmunkások és felelőségek:
-   * Frontend:
-   * Backend:
-   * Tesztelés:
+   * Frontend: HTML, CSS, JavaScript
+   * Backend:PHP
      
 ### 2.3 Ütemterv:
 
@@ -29,7 +29,7 @@ A rendszer célja tehát egy gyors, átlátható és megbízható hírportál l�
 |Követelmény specifikáció |Megírás                                 |         1 |             1 |                      1 |                1 |                   1 |             
 |Funkcionális specifikáció|Megírás                                 |         1 |             1 |                      1 |                1 |                   1 |
 |Rendszerterv             |Megírás                                 |         1 |             1 |                      1 |                1 |                   1 |
-|Program                  |Képernyőtervek elkészítése              |         2 |             1 |                      1 |                1 |                   1 |
+|Alapfunkciók fejlesztése |Képernyőtervek elkészítése              |         2 |             1 |                      1 |                1 |                   1 |
 |Program                  |Prototípus elkészítése                  |         3 |             8 |                      8 |                8 |                   8 |
 |Program                  |Alapfunkciók elkészítése                |         3 |             8 |                      8 |                8 |                   8 |
 |Program                  |Tesztelés                               |         4 |             2 |                      2 |       

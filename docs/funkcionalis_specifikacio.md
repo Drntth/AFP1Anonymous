@@ -83,12 +83,20 @@ Reklámmentes opció: Lehetőség lesz előfizetni egy reklámmentes szolgáltat
 | :#5: | Hírolvasó | Cikk | Minden hírcikk új oldalon jelenik meg. |
 | :#6: | Felhasználók | Bejelentkezési képernyő | A felhasználók ezen a képernyőn felhasználónevük és jelszavuk megadásával bejelentkezhetnek. |
 | :#7: | Felhasználók | Kedvencek | Kedvenc híreinket megjelölhetjük és külön listán láthatjuk. |
+| :#8: | Felhasználók | Komment | A felhasználóknak lehetőségük lesz hozzászólni bejegyzésekhez. |
+| :#9: | Felhasználók | Cikk írása | A megfelelő jogosultsággal rendelkező felhasználók létrehozhatják/publikálhatják a saját általuk készített cikket. |
+| :#10: | Felhasználók | Profil szerkesztése | Lehetőség lesz a felhasználóknak felhasználónév, jelszó módosítására |
 
 ## 6. Használati esetek
 
 - **ADMIN:**
 Az admin feladata a rendszer felügyelete, beleértve a különböző szerepkörök hibamentes működésének ellenőrzését azáltal, hogy bármely szerepkörbe be tud lépni. Az admin korlátlan hozzáféréssel rendelkezik a rendszerhez, így módosíthatja a felhasználók profiljait, például a jogosultságaikat, szerepkörüket, felhasználónevüket és jelszavukat.
 Emellett új felhasználókat adhat a rendszerhez, vagy törölhet már meglévőket. Joguk van bejegyzéseket módosítani, törölni. Illetve kommenteket törölni.
+
+- **Moderátor:** 
+A moderátor feladata a felhasználók által létrehozott tartalmak és tevékenységek felügyelete, hogy ezek megfeleljenek az etikai és közösségi irányelveknek. 
+Nincs teljes hozzáférése a rendszerhez, azonban jogosultsága van a felhasználók által létrehozott tartalmak (cikkek, bejegyzések, kommentek) átnézésére, ellenőrzésére és moderálására. 
+A moderátor törölhet vagy módosíthat tartalmakat, amelyek megsértik a szabályokat. A moderátor nem tud új felhasználókat létrehozni, profilokat módosítani vagy felhasználókat törölni.
 
 - **FELHASZNÁLÓ:**
 A felhasználó megtekintheti az oldalon megjelenő tartalmat, és lehetősége van saját bejegyzéseket létrehozni amennyiben rendelkezik megfelelő jogosultságokkal.
@@ -99,6 +107,15 @@ A megtekintő hozzáférést kap az oldalon való navigáláshoz, cikkekhez, kat
 cikkeket létrehozni, szerkeszteni, törölni, illetve amennyiben hozzászólási lehetőséggel rendelkezik egy bejegyzés azokra nem tud reagálni, kommentet írni.
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
+
+- #1-4: A weboldalhoz bárki, mindenféle jogosultság nélkül hozzáférhet és böngészhet rajta, megtekintheti a különböző kategóriákat ahol az adott tematikának megfelelően
+találhat különböző cikkeket/bejegyzéseket. 
+- #5: A kezdőoldaltól, kategóriákra szűrt tartalomtól külön oldalon jelenik meg az adott cikk amennyiben a felhasználó/megtekintő rákattint.
+- #6: A kezdőoldal tetején elérhető lesz a regisztrációs, bejelentkezési ablak amennyiben felhasználói fiókot szeretne létrehozni valaki.
+- #7: A regisztrált felhasználóknak lehetőség lesz megjelölniük a kedvenc híreiket.
+- #8: A bejelentkezett felhasználó hozzáférést kap a regisztrációhoz kötött funkciókhoz, ilyen például a komment írása.
+- #9: A megfelelő jogosultsággal rendelkező felhasználók számára létrehozunk egy különálló funkciót ahol új cikkeket hozhatnak létre a megadott lehetőségek segítségével, ahol kitudják választani a megfelelő kategóriát, címet adhatnak, illetve ide kerül majd a cikk tartalma is adott esetben, ennek módosítására szintén lesz későbbiekben lehetősége.
+- #10: A regisztrált és bejelentkezett felhasználóknak lehetőségük lesz profiljuk adatainak (például felhasználónév, jelszó) módosítására egy dedikált profilbeállítási felületen. Ez a funkció a felhasználók számára alapvető kényelmi funkciót biztosít, hogy személyre szabják adataikat.
 
 ## 8. Képernyőtervek
 | Kép | Leírás |

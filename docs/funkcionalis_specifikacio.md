@@ -128,3 +128,17 @@ A hírportál rendszeresen frissíti a felhasználói felületet, hogy új funkc
 | K4 | ... | ... |
 
 ## 11 Fogalomszótár
+
+- **Híroldal**: Egy olyan weboldal, amely elsősorban híreket közöl.
+- **Reszponzív weboldal**: Olyan weboldal, amely automatikusan alkalmazkodik a különböző képernyőméretekhez (mobil, tablet, asztali számítógép).
+- **Statikus tartalom**: Az oldal azon részei, amelyek nem változnak automatikusan (pl. menüpontok, lábléc).
+- **Dinamikus tartalom**: Az oldal azon részei, amelyek automatikusan frissülnek (pl. hírek, felhasználói kommentek).
+- **Frontend**: Az oldal azon része, amelyet a felhasználó lát (felhasználói felület).
+- **Backend funkciók**: Azok a funkciók, amelyek a háttérben futnak, és amelyeket a felhasználó közvetlenül nem lát (pl. adatbázis műveletek, hitelesítés).
+- **Kategória**: A hírek tematikus csoportosítása (pl. politika, sport, kultúra).
+- **Navigáció**: Az oldalon való könnyű tájékozódást segítő elemek (menü, kereső).
+- **Felhasználói élmény**: Az, hogy a felhasználó milyen érzésekkel és tapasztalatokkal gazdagodik az oldal használatakor.
+- **Interaktivitás**: Az oldal azon képessége, hogy a felhasználókkal való kölcsönhatásra képes legyen.
+- **Szerkesztő**: Az a személy, aki a híreket írja és szerkeszti.
+- **Felhasználó**: Az oldal látogatója.
+- **Adminisztrátor**: Az a személy, aki az oldal működését felügyeli.

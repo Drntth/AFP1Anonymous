@@ -102,7 +102,11 @@ cikkeket létrehozni, szerkeszteni, törölni, illetve amennyiben hozzászólás
 
 ## 8. Képernyőtervek
 
-![képnév](gitlink ahol a kép van)
+![BEJELENTKEZÉS](https://github.com/Drntth/AFP1Anonymous/blob/main/kep/BEJELENTKEZES.jpg) |  A bejelentkező oldal tervezete.
+![CIKKEK](https://github.com/Drntth/AFP1Anonymous/blob/main/kep/CIKKjpg.jpg) |  A cikkek általános elölnézete.
+![FŐOLDAL](https://github.com/Drntth/AFP1Anonymous/blob/main/kep/ELSO.jpg) |  A Főoldal elölnézete.
+![REGISZTRÁCIÓ](https://github.com/Drntth/AFP1Anonymous/blob/main/kep/REGISZTRACIO.jpg) |  A regisztrációs oldal elölnézete.
+
 
 ## 9. Forgatókönyvek
 

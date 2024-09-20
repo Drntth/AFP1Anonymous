@@ -101,7 +101,8 @@ cikkeket létrehozni, szerkeszteni, törölni, illetve amennyiben hozzászólás
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
 ## 8. Képernyőtervek
-
+| Kép | Leírás |
+| :-----------: | :-----------: |
 | ![BEJELENTKEZÉS](https://github.com/Drntth/AFP1Anonymous/blob/main/kep/BEJELENTKEZES.jpg) |  A bejelentkező oldal tervezete. |
 | ![CIKKEK](https://github.com/Drntth/AFP1Anonymous/blob/main/kep/CIKKjpg.jpg) |  A cikkek általános elölnézete. |
 | ![FŐOLDAL](https://github.com/Drntth/AFP1Anonymous/blob/main/kep/ELSO.jpg) |  A Főoldal elölnézete. |

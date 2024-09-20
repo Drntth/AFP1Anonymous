@@ -17,6 +17,16 @@ A jelenlegi helyzet alapján a fejlesztési folyamat még a tervezési fázisban
 
 ## 2. Vágyálomrendszer leírása
 
+Célunk, hogy a legmegbízhatóbb és legolvasottabb online újság legyünk az ország számára.
+Olyan tartalmakat szeretnénk készíteni, amelyek nemcsak informálnak, szórakoztatnak, 
+hanem releváns, naprakész információkat nyújtanak a világ és a hazai eseményekről.
+Egy olyan közösséget szeretnénk építeni, ahol az olvasók szabadon kifejezhetik véleményüket 
+és részt vehetnek a közbeszédben. Olyan jövőt szeretnénk, ahol a fiatalok informáltak, 
+elkötelezettek és aktívan alakítják a világot. Első projektként szeretnénk egy átlátható, 
+felhasználóbarát híroldalt létrehozni melyben html, css, javascript és php ismereteinket 
+használnánk fel. A függetlenség, a hitelesség, a nyitottság és a szolidaritás értékeire 
+építve szeretnénk hosszú távon is sikeres és fenntartható hírportál lenni.
+
 ## 3. Jelenlegi üzleti folyamatok modellje
 Az oldal jelenlegi működése során több szereplő és folyamat együttműködése biztosítja a tartalmak folyamatos megjelenését és a felhasználók kiszolgálását. Az alábbiakban bemutatjuk a támogatandó vagy fejlesztendő folyamatokat, valamint a hozzájuk kapcsolódó szereplőket és erőforrásokat:
 

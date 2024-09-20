@@ -11,16 +11,16 @@ Nem célunk, hogy minden forrásból származó hírt automatikusan megjeleníts
 A rendszer célja tehát egy gyors, átlátható és megbízható hírportál létrehozása, amely releváns, naprakész információkat nyújt a felhasználóknak.
 
 ## 2. Projektterv
+Az online híroldal célja, hogy egy egyszerűen használható, reszponzív és gyorsan frissülő weboldalt hozzunk létre, amely megbízható híreket kínál hazai és nemzetközi témákban. Az oldal lehetőséget nyújt a felhasználóknak, hogy regisztráljanak, elmentsék kedvenc cikkeiket, és részt vegyenek a közösségi diskurzusban.
 
 ### 2.1 Projektszerepkörök, felelőségek:
-   * Scrum masters:
-   * Product owner: 
-   * Üzleti szereplő:
+   * Scrum masters:Borsodi István , Cserni Boglárka
+   * Product owner: Plasku Dominik
+   * Üzleti szereplő: Nagy Péter
      
 ### 2.2 Projektmunkások és felelőségek:
-   * Frontend:
-   * Backend:
-   * Tesztelés:
+   * Frontend: HTML, CSS, JavaScript
+   * Backend:PHP
      
 ### 2.3 Ütemterv:
 
@@ -29,7 +29,7 @@ A rendszer célja tehát egy gyors, átlátható és megbízható hírportál l�
 |Követelmény specifikáció |Megírás                                 |         1 |             1 |                      1 |                1 |                   1 |             
 |Funkcionális specifikáció|Megírás                                 |         1 |             1 |                      1 |                1 |                   1 |
 |Rendszerterv             |Megírás                                 |         1 |             1 |                      1 |                1 |                   1 |
-|Program                  |Képernyőtervek elkészítése              |         2 |             1 |                      1 |                1 |                   1 |
+|Alapfunkciók fejlesztése |Képernyőtervek elkészítése              |         2 |             1 |                      1 |                1 |                   1 |
 |Program                  |Prototípus elkészítése                  |         3 |             8 |                      8 |                8 |                   8 |
 |Program                  |Alapfunkciók elkészítése                |         3 |             8 |                      8 |                8 |                   8 |
 |Program                  |Tesztelés                               |         4 |             2 |                      2 |       
@@ -214,3 +214,24 @@ Szoftver telepítési terv:
 
 ## 13. Karbantartási terv
 
+A rendszer folyamatos és biztonságos működésének biztosítása érdekében a következő karbantartási tevékenységek kerülnek végrehajtásra:
+
+**Rendszerfrissítések kezelése**
+A rendszer frissítéseit két kategóriára bontjuk:
+
+- Funkcionális frissítések: Ezek tartalmazzák az új funkciók hozzáadását vagy a meglévő funkciók továbbfejlesztését. Ezen frissítések célja a felhasználói élmény javítása és a rendszer teljesítményének optimalizálása.
+- Biztonsági frissítések: A rendszerben felmerülő biztonsági sebezhetőségeket kijavító frissítések. Ez kritikus fontosságú a felhasználói adatok védelme érdekében.
+
+**Adatbázis karbantartása**
+Az adatbázis hatékonyságának fenntartása érdekében rendszeres karbantartási műveletek szükségesek, amelyek magukban foglalják:
+
+- Adatbázis optimalizálás: A nagy adatállományok és lekérdezések hatékonyabb kezelése érdekében az adatbázis optimalizálása elengedhetetlen.
+- Biztonsági mentések: Az adatvesztés elkerülése érdekében a rendszer automatikusan napi biztonsági mentéseket készít. A mentések távoli szervereken kerülnek tárolásra.
+- Adattisztítás: Az inaktív vagy hibás adatokat időszakosan törölni kell a rendszer terhelésének csökkentése érdekében.
+
+**Hibajavítás és technikai támogatás**
+A felhasználók által jelentett hibák és problémák gyors megoldásához egy dedikált támogatási csapat lesz kijelölve. A hibaelhárítás a következő lépéseket fogja követni:
+
+- Problémák azonosítása: A felhasználói visszajelzések és rendszerfigyelési eszközök segítségével.
+- Prioritás meghatározása: A hibák súlyosságuk alapján kapnak prioritást, és ennek megfelelően kerülnek javításra.
+- Hibaelhárítás: A fejlesztőcsapat kijavítja a hibát, és azonnal frissíti a rendszert, ha szükséges.

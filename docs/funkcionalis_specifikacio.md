@@ -106,6 +106,16 @@ cikkeket létrehozni, szerkeszteni, törölni, illetve amennyiben hozzászólás
 
 ## 9. Forgatókönyvek
 
+A felhasználó bejelentkezik a hírportál adminisztrációs felületére, majd kiválasztja az “Új hír” opciót az adminisztrációs menüben. 
+Ezt követően megadja a hír címét, fő szövegét, és feltölti a kapcsolódó képeket vagy videókat. 
+A felhasználó kiválasztja a megfelelő kategóriát, például politika, sport vagy gazdaság, majd rákattint a “Beküldés” gombra. 
+Ezután a felhasználó ellenőrzi a hír előnézetét, hogy megbizonyosodjon arról, hogy minden információ helyesen van megadva. 
+Ha szükséges, további módosításokat végezhet. Miután elégedett a hír tartalmával és megjelenésével, 
+rákattint a “Publikálás” gombra, hogy a hírt közzétegye a hírportálon. 
+Végül a rendszer automatikusan értesíti a felhasználókat, például hírlevél formájában, az új hír megjelenéséről. 
+A hírportál rendszeresen frissíti a felhasználói felületet, hogy új funkciókat és javításokat biztosítson, 
+így a felhasználó mindig a legújabb eszközökkel dolgozhat.
+
 ## 10. Funkció - követelmény megfeleltetése
 
 | Id | Követelmény | Funkció |

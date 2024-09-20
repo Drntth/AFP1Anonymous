@@ -14,9 +14,9 @@ A rendszer célja tehát egy gyors, átlátható és megbízható hírportál l�
 Az online híroldal célja, hogy egy egyszerűen használható, reszponzív és gyorsan frissülő weboldalt hozzunk létre, amely megbízható híreket kínál hazai és nemzetközi témákban. Az oldal lehetőséget nyújt a felhasználóknak, hogy regisztráljanak, elmentsék kedvenc cikkeiket, és részt vegyenek a közösségi diskurzusban.
 
 ### 2.1 Projektszerepkörök, felelőségek:
-   * Scrum masters:
-   * Product owner: 
-   * Üzleti szereplő:
+   * Scrum masters:Borsodi István , Cserni Boglárka
+   * Product owner: Plasku Dominik
+   * Üzleti szereplő: Nagy Péter
      
 ### 2.2 Projektmunkások és felelőségek:
    * Frontend: HTML, CSS, JavaScript

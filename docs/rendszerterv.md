@@ -77,21 +77,64 @@ Ezek a folyamatok biztosítják, hogy a rendszer zökkenőmentesen működjön, 
 
 | ID | Megnevezés | Leírás |
 | --- | --- | --- |
-| K1 | ... | ... |
+| #1 | Főoldal | A főoldalról könnyedén ugorhatunk a különböző témájú híreket tartalmazó oldalakra. |
+| #2 | Navigációs sáv | A navigációs sáv segítségével különböző kategóriák és tematikák között böngészhetünk. |
+| #3 | Menüpontok | A menüpontok segítségével navigálhatunk az oldalon. |
+| #4 | Keresőmező | A keresőmező segítségével különböző cikkeket kereshetünk. |
+| #5 | Cikk | Minden hírcikk új, különálló oldalon jelenik meg. |
+| #6 | Bejelentkezési képernyö | A felhasználók regisztrálhatnak, és bejelentkezhetnek felhasználónebük és jelszavuk beírásával. |
+| #7 | Kedvencek | Kedvenc híreinket külön listába szedhetjük. |
 
 ### Nemfunkcionális követelmények
 
 | ID | Megnevezés | Leírás |
 | --- | --- | --- |
-| K4 | ... | ... |
+| #1 | Rendszer stabilitása | A rendszer folyamatosan rendelkezésre áll, működőképes, minimális leállásokkal. |
+| #2 | Teljesítmény | Az oldal gyorsan betöltődik és a szerver teljesítménye skálázható. |
+| #3 | Biztonság | A felhasználóink adatainak védelme erős titkosítással biztosított. |
+| #4 | Kompatibilitás | Az oldal a legtöbb eszközön és böngészőben működik. |
 
 ### Támogatott eszközök
+
++ Asztali böngészők (Chrome, Firefox, Edge, Opera, Brave)
++ Mobil böngészők (iOS Safari, Android Chrome, Opera)
 
 ## 5. Funkcionális terv
 
 ### 5.1 Rendszerszereplők
 
+A rendszerben háromféle szerepkör létezik:
+
++ Az olvasók (a felhasználók),
++ A szerkesztők,
++ Az adminisztrátorok
+
+**1. Az olvasók:**
+
++ Böngészhetik és olvashatják a híreket,
++ Kereshetnek a cikkek között,
++ Regisztrálhatnak az oldalra,
++ Regisztrációt követően elmenthetik kedvenc híreiket a Kedvencekbe
+
+**2. A szerkesztők:**
+
++ Közzétesznek új híreket,
++ Híreket szerkesztenek,
++ Kategorizálják a cikkeket
+
+**3. Az adminisztrátorok:**
+
++ Kezelik a felhasználói adatokat és fiókokat,
++ Karbantartják az oldalt, és szükség esetén javításokat végeznek
+
 ### 5.2 Menühierarchiák
+
+A különböző menük és alfunkciók a rendszerben a következőképpen vannak kialakítva:
+
++ A **Főoldalon** a legfrissebb hírek kategorizálva jelennek meg.
++ A különböző **Kategóriák** szerint tematikusan vannak szűrve, ami megkönnyíti a böngészést az olvasók számára.
++ A **Keresőmezővel** a felhasználók kereshetnek a hírek között.
++ A **felhasználó saját profilja segítségével** (regisztráció után) listázhatja kedvenc híreit és egyéb beállításokat végezhet el.
 
 ## 6. Fizikai környezet
 
@@ -117,6 +160,51 @@ Ezek a folyamatok biztosítják, hogy a rendszer zökkenőmentesen működjön, 
 ## 10. Implementációs terv
 
 ## 11. Tesztterv
+
+A testelés során használható stratégiák és technológiák:
+
+# A tesztelés fázisai:
+
+1. **Egységtesztelés** vagyis *Unit testing*:
+
+Ellenőrizzük, hogy a kódrészletek és funkciók külön-külön jól működnek-e.
+Tesztelhetjük például az adatbáziselemeket, a bejelentkezési folyamatot stb.
+
+2. **Integrációs tesztelés** azaz *Integration testing*:
+
+Ebben a tesztben a rendszer különböző moduljainak együttműködését teszteljük.
+A teszt célja az, hogy lássuk, hogy a frontend, a backend és az adatbázisok és egyéb rendszerek zökkenőmentesen kommunikálnak.
+
+3. **Funkcionális tesztelés** avagy *Functional testing*:
+
+A rendszerben megvalósított funkciókat a követelményspecifikáció alapján ellenőrizzük. 
+
+4. **Rendszertesztelés** azaz *System testing*:
+
+Ilyenkor az egész rendszert átfogóan teszteljük, beleértve az összes funkciót és a felhasználói interakciókat.
+Ellenőrizzük, hogy a rendszer minden pontban megfelel-e a funkcionális és a nemfunkcionális követelményekben leírtaknak.
+
+5. **Teljesítménytesztelés** vagy *Performance testing*:
+
+A rendszer terhelhetőségének és válaszidejének ellenőrzése nagyobb felhasználói terhelés mellett.
+A célunk biztosítani, hogy az oldal gyorsan betöltődjön és megfelelően működjön csúcsidőben is.
+
+6. **Biztonsági tesztelés** vagyis *Security testing*:
+
+Átnézni a rendszert, hogy nincsenek-e benne bisztonsági rések, tesztelni bizonyos támadástípusok, például SQL injection vagy Cross Site Scripting (XSS) ellen.
+Különös gondot kell fordítani a felhasználók adatainak védelmére, a jelszavak védelmére, és a jogosultságok kezelésére.
+
+# Konkrét tesztesetek kidolgozása:
+
+| Teszteset ID | Leírás | Elvárt eredmény |
+| --- | --- | --- |
+| T1 | Bejelentkezés érvényes adatokkal. | Sikeres bejelentkezés, felhasználói fiók elérése. |
+| T2 | Bejelentkezés rossz jelszóval. | Sikertelen bejelentkezés, hibaüzenet megjelenítése. |
+| T3 | Hírek keresése. | A keresésnek megfelelő címek megjelennek az oldalon. |
+| T4 | Kedvenc cikk elmentése. | A cikk sikeresen megjelenik a felhasználó kedvencei között. |
+
+
+
 
 ## 12. Telepítési terv
 

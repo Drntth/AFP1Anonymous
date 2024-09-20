@@ -52,13 +52,13 @@ Reklámmentes opció: Lehetőség lesz előfizetni egy reklámmentes szolgáltat
 
 | Id | Modul | Név | Leírás |
 | :---:| --- | --- | ---    |	
-| :#1: | Oldalnavigáció | Főoldal | A főoldalról könnyedén átugorhatunk az egyes témájú híreket soroló oldalra. |
-| :#2: | Oldalnavigáció | Navigációs sáv | Az oldalon való navigálást segíti menüpontokkal és keresővel. |
-| :#3: | Oldalnavigáció | Menüpontok | Segítségükkel kategóriákba szedve olvashatunk híreket. |
-| :#4: | Oldalnavigáció | Keresőmező | Segítségével különböző témájú cikkeket kereshetünk. |
-| :#5: | Hírolvasó | Cikk | Minden hírcikk új oldalon jelenik meg. |
-| :#6: | Felhasználók | Bejelentkezési képernyő | A felhasználók ezen a képernyőn felhasználónevük és jelszavuk megadásával bejelentkezhetnek. |
-| :#7: | Felhasználók | Kedvencek | Kedvenc híreinket megjelölhetjük és külön listán láthatjuk. |
+| #1 | Oldalnavigáció | Főoldal | A főoldalról könnyedén átugorhatunk az egyes témájú híreket soroló oldalra. |
+| #2 | Oldalnavigáció | Navigációs sáv | Az oldalon való navigálást segíti menüpontokkal és keresővel. |
+| #3 | Oldalnavigáció | Menüpontok | Segítségükkel kategóriákba szedve olvashatunk híreket. |
+| #4 | Oldalnavigáció | Keresőmező | Segítségével különböző témájú cikkeket kereshetünk. |
+| #5 | Hírolvasó | Cikk | Minden hírcikk új oldalon jelenik meg. |
+| #6 | Felhasználók | Bejelentkezési képernyő | A felhasználók ezen a képernyőn felhasználónevük és jelszavuk megadásával bejelentkezhetnek. |
+| #7 | Felhasználók | Kedvencek | Kedvenc híreinket megjelölhetjük és külön listán láthatjuk. |
 
 ## 6. Használati esetek
 
@@ -72,8 +72,14 @@ Reklámmentes opció: Lehetőség lesz előfizetni egy reklámmentes szolgáltat
 
 ## 10. Funkció - követelmény megfeleltetése
 
-| Id | Követelmény | Funkció |
-| :---: | --- | --- |
-| K4 | ... | ... |
+| Id  | Követelmény        | Funkciók                            |
+| --- | ------------------ | ----------------------------------- |
+| #1  | Főoldal            | A főoldal megjelenítése, ahol a különböző hírek kategóriánként áttekinthetők. |
+| #2  | Navigációs sáv      | A menüpontok és keresőmező biztosítják a könnyű navigációt az oldalon. |
+| #3  | Menüpontok         | A hírek kategóriák szerinti szűrése és megjelenítése a felhasználók számára. |
+| #4  | Keresőmező         | Cikkek keresése a megadott kulcsszavak alapján. |
+| #5  | Cikk               | Egyes hírek megjelenítése különálló oldalon teljes tartalommal. |
+| #6  | Bejelentkezési képernyő | A felhasználói hitelesítés biztosítása a rendszerbe való belépéshez. |
+| #7  | Kedvencek          | A felhasználók kedvenc cikkeinek mentése és elérése. |
 
 ## 11 Fogalomszótár

@@ -159,6 +159,14 @@ A különböző menük és alfunkciók a rendszerben a következőképpen vannak
 
 ## 10. Implementációs terv
 
+**Felhasználói felület:**
+
+- A webes alkalmazás felhasználói felülete HTML, CSS, és JavaScript segítségével készül. A HTML biztosítja a weboldal szerkezetét, míg a CSS gondoskodik a vizuális megjelenésről és reszponzivitásról. A JavaScript az oldal dinamikus viselkedéséért felel, lehetővé téve az interaktív elemek (pl. gombok, legördülő menük) működését, valamint biztosítja az AJAX-alapú keresési funkciót, amely valós időben jeleníti meg a keresési találatokat.
+
+**Adatbázis:**
+
+- Az adatbázis MySQL vagy PL/SQL (Oracle SQL) rendszerben kerül kialakításra, a technológiai választástól függően. Az adatbázis tárolja a híreket, kategóriákat, valamint a felhasználói információkat, beleértve a felhasználók hitelesítési adatait, felhasználóprofilokat és egyéb kapcsolódó információkat. Az adatok kezelését a backend PHP programja végzi, amely kapcsolatot biztosít a felhasználói felület és az adatbázis között, ezáltal biztosítva az adatok gyors elérését és megfelelő feldolgozását.
+
 ## 11. Tesztterv
 
 A testelés során használható stratégiák és technológiák:

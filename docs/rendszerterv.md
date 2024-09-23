@@ -151,9 +151,47 @@ A különböző menük és alfunkciók a rendszerben a következőképpen vannak
 
 ### Webszerver
 
+- A webszerver a hírportál látogatói kéréseinek közvetlen kiszolgálója. 
+Amikor egy felhasználó beírja a hírportál címét a böngészőbe, a kérés a webszerverhez érkezik. 
+A szerver feladata, hogy a kért tartalmat (pl. egy híroldal, kép, stíluslap) azonosítsa a az 
+adatbázisban, és a megfelelő formátumban továbbítsa a felhasználónak.
+
 ### Adatbázis rendszer
 
+- A hírportál agyaként működik. Itt tárolódnak a hírek, a felhasználók adatai,
+a beállítások és minden egyéb információ, amely a weboldal működéséhez szükséges. 
+Az adatok hatékony keresése és kezelése érdekében normalizálják és indexelik az adatokat. 
+A replikáció pedig az adatvesztés ellen nyújt védelmet.
+
 ### A program elérése, kezelése
+
+- Frontend:
+
+ - A frontend a webes alkalmazások azon része, amelyet a felhasználók közvetlenül látnak és használnak. 
+ Ez az a réteg, amely közvetlen kapcsolatban van a felhasználóval, ide tartozik minden vizuális elem, 
+ interaktív funkció és az a felület, amelyen keresztül a felhasználók adatokat visznek be vagy adatokat kapnak. 
+ A frontendet általában HTML, CSS és JavaScript technológiák segítségével építik fel.
+
+ - HTML: Ez a weboldalak szerkezeti elemeit definiálja. Meghatározza, hogy egy adott oldalon milyen elemek jelenjenek meg (például szöveg, képek, gombok).
+
+ - CSS: A CSS felelős a weboldal megjelenéséért, tehát meghatározza, hogy az elemek milyen formában jelenjenek meg (színek, betűtípusok, margók, elhelyezkedés stb.).
+
+ - JavaScript: Ez egy programozási nyelv, amely dinamikus funkcionalitást ad a weboldalakhoz, például animációkat, felugró ablakokat, vagy interaktív elemeket, mint a keresőmezők vagy űrlapok.
+
+- Backend:
+
+ - A backend a szerveroldalon működő rendszer, amely az alkalmazás „szíve”, 
+ a logikai és adatfeldolgozási műveletek helye. Ez a része a rendszernek nem 
+ látható közvetlenül a felhasználók számára, de alapvető fontosságú minden interaktív 
+ webes alkalmazás működésében. A backend végzi az adatkezelést, az üzleti logikát és 
+ más feladatokat, amelyek nélkül a frontend nem lenne képes működni.
+
+ - Az adatbázisok a backend egyik legfontosabb és legkritikusabb elemei. Ezek tárolják, 
+ kezelik, rendszerezik és biztosítják a hozzáférést az alkalmazás adataihoz. A modern 
+ alkalmazások jelentős mennyiségű adatot kezelnek – például felhasználói információkat, 
+ tranzakciókat, termékleírásokat –, ezért az adatbázis hatékony működése kulcsfontosságú. 
+ Az adatbázisok tervezése, optimalizálása és biztonságának fenntartása elengedhetetlen a 
+ teljes rendszer teljesítménye és megbízhatósága szempontjából.
 
 ## 9. Adatbázis terv
 

@@ -167,26 +167,26 @@ A replikáció pedig az adatvesztés ellen nyújt védelmet.
 
 - Frontend:
 
- - A frontend a webes alkalmazások azon része, amelyet a felhasználók közvetlenül látnak és használnak. 
+ * A frontend a webes alkalmazások azon része, amelyet a felhasználók közvetlenül látnak és használnak. 
  Ez az a réteg, amely közvetlen kapcsolatban van a felhasználóval, ide tartozik minden vizuális elem, 
  interaktív funkció és az a felület, amelyen keresztül a felhasználók adatokat visznek be vagy adatokat kapnak. 
  A frontendet általában HTML, CSS és JavaScript technológiák segítségével építik fel.
 
- - HTML: Ez a weboldalak szerkezeti elemeit definiálja. Meghatározza, hogy egy adott oldalon milyen elemek jelenjenek meg (például szöveg, képek, gombok).
+ * HTML: Ez a weboldalak szerkezeti elemeit definiálja. Meghatározza, hogy egy adott oldalon milyen elemek jelenjenek meg (például szöveg, képek, gombok).
 
- - CSS: A CSS felelős a weboldal megjelenéséért, tehát meghatározza, hogy az elemek milyen formában jelenjenek meg (színek, betűtípusok, margók, elhelyezkedés stb.).
+ * CSS: A CSS felelős a weboldal megjelenéséért, tehát meghatározza, hogy az elemek milyen formában jelenjenek meg (színek, betűtípusok, margók, elhelyezkedés stb.).
 
- - JavaScript: Ez egy programozási nyelv, amely dinamikus funkcionalitást ad a weboldalakhoz, például animációkat, felugró ablakokat, vagy interaktív elemeket, mint a keresőmezők vagy űrlapok.
+ * JavaScript: Ez egy programozási nyelv, amely dinamikus funkcionalitást ad a weboldalakhoz, például animációkat, felugró ablakokat, vagy interaktív elemeket, mint a keresőmezők vagy űrlapok.
 
 - Backend:
 
- - A backend a szerveroldalon működő rendszer, amely az alkalmazás „szíve”, 
+ * A backend a szerveroldalon működő rendszer, amely az alkalmazás „szíve”, 
  a logikai és adatfeldolgozási műveletek helye. Ez a része a rendszernek nem 
  látható közvetlenül a felhasználók számára, de alapvető fontosságú minden interaktív 
  webes alkalmazás működésében. A backend végzi az adatkezelést, az üzleti logikát és 
  más feladatokat, amelyek nélkül a frontend nem lenne képes működni.
 
- - Az adatbázisok a backend egyik legfontosabb és legkritikusabb elemei. Ezek tárolják, 
+  * Az adatbázisok a backend egyik legfontosabb és legkritikusabb elemei. Ezek tárolják, 
  kezelik, rendszerezik és biztosítják a hozzáférést az alkalmazás adataihoz. A modern 
  alkalmazások jelentős mennyiségű adatot kezelnek – például felhasználói információkat, 
  tranzakciókat, termékleírásokat –, ezért az adatbázis hatékony működése kulcsfontosságú. 
@@ -194,6 +194,8 @@ A replikáció pedig az adatvesztés ellen nyújt védelmet.
  teljes rendszer teljesítménye és megbízhatósága szempontjából.
 
 ## 9. Adatbázis terv
+
+![ADATBÁZISTERV](https://github.com/Drntth/AFP1Anonymous/blob/main/kep/adatbazisterv.png)
 
 ## 10. Implementációs terv
 

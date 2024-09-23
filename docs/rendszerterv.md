@@ -208,9 +208,25 @@ Különös gondot kell fordítani a felhasználók adatainak védelmére, a jels
 
 ## 12. Telepítési terv
 
-Fizikai telepítési terv: 
+**Fizikai telepítési terv:** A weboldal működőképességéhez először is szükség van egy adatbázis szerverre.
 
-Szoftver telepítési terv: 
+- **Adatbázis-szerver:**
+
+   - Az adatbázis-szerver tárolja az összes szükséges adatot (felhasználói adatok, hírek, kategóriák stb.).
+   - Ezt a szervert közvetlen kapcsolat köti a webszerverhez, ami biztosítja a gyors adatlekérést és -tárolást.
+   - Adatbázis: MySQL, vagy szükség esetén más adatbázisrendszer (pl. PostgreSQL, Oracle).
+
+- **Webszerver:**
+
+   - A webszerver biztosítja a webalkalmazás futtatását. Ez szolgálja ki a felhasználók által küldött kéréseket (pl. hír keresése, kategóriák böngészése).
+   - A webszerver csatlakozik az adatbázis-szerverhez, és kezeli a HTTP kéréseket az internetről érkező kliensektől.
+
+- **Hálózati kapcsolat:**
+
+   - A webszerver eléréséhez az internetről a felhasználók közvetlenül kapcsolódnak a szerverhez.
+
+**Szoftver telepítési terv:** 
+   - Különálló szoftvert nem szükséges telepíteni a weboldal használatához, a felhasználók a webes felülethez egy böngésző (Microsoft Edge, Google Chrome, Mozilla Firefox, Brave, Opera, stb..) segítségével tudnak hozzáférni.
 
 ## 13. Karbantartási terv
 

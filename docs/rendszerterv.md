@@ -140,12 +140,32 @@ A különböző menük és alfunkciók a rendszerben a következőképpen vannak
 
 ### Vásárolt softwarekomponensek és külső rendszerek
 
+- Mi kizárólag saját fejlesztésű komponensekkel dolgozunk, nem használunk megvásárolt, kész elemeket. 
+Így biztosak lehetünk benne, hogy minden megoldásunk egyedi és teljesen a mi elképzeléseink szerint működik. 
+Ez lehetővé teszi, hogy rugalmasabbak legyünk és jobban tudjunk alkalmazkodni az igényekhez.
+
 ### Hardver topológia
+
+- **Webszerver:** A webszerver közvetlenül csatlakozik az adatbázisszerverhez, és kiszolgálja a felhasználói kéréseket. 
+A felhasználók az internetről kapcsolódnak a szerverhez, amely fogadja és feldolgozza a beérkező kéréseket, majd továbbítja az adatbázisszerverhez.
+- **Adatbázisszerver:** Az adatbázisszerver ugyanazon a szerveren, mint a webszerver.
 
 ### Fizikai alrendszerek
 
+- **Backend alrendszer:** PHP alapú rendszer, amely a webszerveren fut és kezeli az üzleti logikát, 
+adatbázis-műveleteket és a felhasználói kéréseket.
+- **Frontend alrendszer:** A HTML, CSS és JavaScript technológiákkal készült felhasználói felület, 
+amely a böngészőkben jelenik meg, és interaktív elemeket biztosít a felhasználók számára.
+- **Adatbázis alrendszer:** A MySQL vagy PL/SQL adatbázis felelős az adatok tárolásáért, 
+lekérdezéséért, frissítéséért és kezeléséért.
+
 ### Fejlesztő eszközök
 
+- Visual Studio Code
+- XAMPP
+- phpMyAdmin
+- Oracle SQL Developer
+- Git
 
 ## 8. Architekturális terv
 
@@ -167,26 +187,26 @@ A replikáció pedig az adatvesztés ellen nyújt védelmet.
 
 - Frontend:
 
- * A frontend a webes alkalmazások azon része, amelyet a felhasználók közvetlenül látnak és használnak. 
+   - A frontend a webes alkalmazások azon része, amelyet a felhasználók közvetlenül látnak és használnak. 
  Ez az a réteg, amely közvetlen kapcsolatban van a felhasználóval, ide tartozik minden vizuális elem, 
  interaktív funkció és az a felület, amelyen keresztül a felhasználók adatokat visznek be vagy adatokat kapnak. 
  A frontendet általában HTML, CSS és JavaScript technológiák segítségével építik fel.
 
- * HTML: Ez a weboldalak szerkezeti elemeit definiálja. Meghatározza, hogy egy adott oldalon milyen elemek jelenjenek meg (például szöveg, képek, gombok).
+   - HTML: Ez a weboldalak szerkezeti elemeit definiálja. Meghatározza, hogy egy adott oldalon milyen elemek jelenjenek meg (például szöveg, képek, gombok).
 
- * CSS: A CSS felelős a weboldal megjelenéséért, tehát meghatározza, hogy az elemek milyen formában jelenjenek meg (színek, betűtípusok, margók, elhelyezkedés stb.).
+   - CSS: A CSS felelős a weboldal megjelenéséért, tehát meghatározza, hogy az elemek milyen formában jelenjenek meg (színek, betűtípusok, margók, elhelyezkedés stb.).
 
- * JavaScript: Ez egy programozási nyelv, amely dinamikus funkcionalitást ad a weboldalakhoz, például animációkat, felugró ablakokat, vagy interaktív elemeket, mint a keresőmezők vagy űrlapok.
+   - JavaScript: Ez egy programozási nyelv, amely dinamikus funkcionalitást ad a weboldalakhoz, például animációkat, felugró ablakokat, vagy interaktív elemeket, mint a keresőmezők vagy űrlapok.
 
 - Backend:
 
- * A backend a szerveroldalon működő rendszer, amely az alkalmazás „szíve”, 
+   - A backend a szerveroldalon működő rendszer, amely az alkalmazás „szíve”, 
  a logikai és adatfeldolgozási műveletek helye. Ez a része a rendszernek nem 
  látható közvetlenül a felhasználók számára, de alapvető fontosságú minden interaktív 
  webes alkalmazás működésében. A backend végzi az adatkezelést, az üzleti logikát és 
  más feladatokat, amelyek nélkül a frontend nem lenne képes működni.
 
-  * Az adatbázisok a backend egyik legfontosabb és legkritikusabb elemei. Ezek tárolják, 
+   - Az adatbázisok a backend egyik legfontosabb és legkritikusabb elemei. Ezek tárolják, 
  kezelik, rendszerezik és biztosítják a hozzáférést az alkalmazás adataihoz. A modern 
  alkalmazások jelentős mennyiségű adatot kezelnek – például felhasználói információkat, 
  tranzakciókat, termékleírásokat –, ezért az adatbázis hatékony működése kulcsfontosságú. 

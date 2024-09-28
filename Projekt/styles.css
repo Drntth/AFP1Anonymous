@@ -8,6 +8,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 header {
@@ -18,19 +21,23 @@ header {
     padding: 10px 0;
 }
 
+main {
+    flex: 1;
+}
+
 nav {
     display: flex;
     justify-content: center; 
     width: 100%;
 }
 
-nav ul {
+nav ul.kategoria {
     list-style-type: none;
     display: flex;
     gap: 20px; 
 }
 
-nav ul li a {
+nav ul.kategoria li a {
     display: block;
     text-align: center;
     color: var(--text-color);
@@ -38,6 +45,49 @@ nav ul li a {
     padding: 10px 15px;
 }
 
-nav ul li a:hover {
+nav ul.kategoria li a:hover {
     background-color: var(--hover-color);
+}
+
+nav ul.balnav {
+    list-style-type: none;
+    display: flex;
+    text-align: left;
+    align-items: left;
+}
+
+nav ul.balnav li a {
+    display: block;
+    text-align: center;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav ul.balnav li a:hover {
+    background-color: var(--hover-color);
+}
+
+footer {
+    background-color: var(--navbar-color);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    gap: 30px; 
+}
+
+footer ul li a {
+    display: block;
+    text-align: center;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 10px 15px;
 }

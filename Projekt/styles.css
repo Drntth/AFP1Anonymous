@@ -1,0 +1,43 @@
+:root {
+    --navbar-color: grey;
+    --hover-color: blue;
+    --text-color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--navbar-color);
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; 
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: var(--hover-color);
+}

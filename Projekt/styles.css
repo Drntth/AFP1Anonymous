@@ -10,7 +10,6 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    
 }
 
 header {
@@ -31,10 +30,13 @@ nav {
     width: 100%;
 }
 
+nav ul {
+    margin: 0 130px;
+}
+
 nav ul.kategoria {
     list-style-type: none;
     display: flex;
-    gap: 20px; 
 }
 
 nav ul.kategoria li a {
@@ -42,7 +44,9 @@ nav ul.kategoria li a {
     text-align: center;
     color: var(--text-color);
     text-decoration: none;
-    padding: 10px 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
 }
 
 nav ul.kategoria li a:hover {
@@ -61,10 +65,20 @@ nav ul.balnav li a {
     text-align: center;
     color: var(--text-color);
     text-decoration: none;
-    padding: 10px 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
 }
 
 nav ul.balnav li a:hover {
+    background-color: var(--hover-color);
+}
+
+nav .jobbnav {
+    list-style-type: none;
+}
+
+nav ul.jobbnav li p:hover {
     background-color: var(--hover-color);
 }
 
@@ -72,7 +86,7 @@ footer {
     background-color: var(--navbar-color);
     display: flex;
     justify-content: center;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -91,3 +105,57 @@ footer ul li a {
     text-decoration: none;
     padding: 10px 15px;
 }
+
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 45px;
+}
+  
+.news-article {
+    width: 45%;
+    display: inline-block;
+    background-color: #666;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+  
+.news-article img {
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+  
+.news-article h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 20px;
+}
+  
+.news-article p {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 20px;
+}
+  
+.news-article button {
+    background-color: black;
+    color: #fff;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+  
+.news-article button:hover {
+    background-color: #666;
+ }

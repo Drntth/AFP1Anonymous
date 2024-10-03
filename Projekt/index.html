@@ -14,10 +14,10 @@
                 <li><a href="#home" class="navbar-title">Névtelen Hírek</a></li>
             </ul>
             <ul class="kategoria">
-                <li><a href="#home">Főoldal</a></li>
-                <li><a href="#sport">Sport</a></li>
-                <li><a href="#politika">Politika</a></li>
-                <li><a href="#gazdasag">Gazdaság</a></li>
+                <li><a href="#home" onclick="filterArticles('all')">Főoldal</a></li>
+                <li><a href="#sport" onclick="filterArticles('sport')">Sport</a></li>
+                <li><a href="#politika" onclick="filterArticles('politika')">Politika</a></li>
+                <li><a href="#gazdasag" onclick="filterArticles('gazdasag')">Gazdaság</a></li>
             </ul>
             <ul class="jobbnav">
                 <li><p>Bejelentkezés</p></li>
@@ -25,7 +25,21 @@
         </nav>               
     </header>
     <main>
-        <div class="news-container">
+        <div class="news-container sport">
+            <div class="news-article">
+                <img src="" alt="" width="550px" height="300px">
+                <h2>cikk neve</h2>
+                <p>Rövid leírás</p>
+                <button>Bővebben</button>
+            </div>
+            <div class="news-article">
+                <img src="" alt="" width="550px" height="300px">
+                <h2>Cikk neve</h2>
+                <p>Rövid leírás</p>
+                <button>Bővebben</button>
+            </div>
+        </div>
+        <div class="news-container politika">
             <div class="news-article">
                 <img src="" alt="" width="550px" height="300px">
                 <h2>Cikk neve</h2>
@@ -39,21 +53,7 @@
                 <button>Bővebben</button>
             </div>
         </div>
-        <div class="news-container">
-            <div class="news-article">
-                <img src="" alt="" width="550px" height="300px">
-                <h2>Cikk neve</h2>
-                <p>Rövid leírás</p>
-                <button>Bővebben</button>
-            </div>
-            <div class="news-article">
-                <img src="" alt="" width="550px" height="300px">
-                <h2>Cikk neve</h2>
-                <p>Rövid leírás</p>
-                <button>Bővebben</button>
-            </div>
-        </div>
-        <div class="news-container" style="padding-bottom: 130px;">
+        <div class="news-container gazdasag" style="padding-bottom: 130px;">
             <div class="news-article">
                 <img src="" alt="" width="550px" height="300px">
                 <h2>Cikk neve</h2>
@@ -70,6 +70,6 @@
             <li><p>Nagy Péter</p></li>
         </ul>
     </footer>
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
 </body>
 </html>

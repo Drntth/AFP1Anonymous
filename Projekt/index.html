@@ -12,6 +12,12 @@
             <ul class="balnav">
                 <li><img src="kepek/logo.png" alt="A híroldal logója" class="logo"></li>
                 <li><a href="#home" class="navbar-title">Névtelen Hírek</a></li>
+                <li>
+                    <div id="temperature" style="color: white; font-size: 20px; margin-left: 20px;">
+                        <img src="kepek/idojaras.png" alt="Időjárás ikon" width="30px" height="30px" style="vertical-align: middle; margin-right: 10px;">
+                        Betöltés...
+                    </div>
+                </li>
             </ul>
             <ul class="kategoria">
                 <li><a href="#home" onclick="filterArticles('all')">Főoldal</a></li>
@@ -27,10 +33,10 @@
     <main>
         <div class="news-container sport">
             <div class="news-article">
-                <img src="" alt="" width="550px" height="300px">
-                <h2>cikk neve</h2>
-                <p>Rövid leírás</p>
-                <button>Bővebben</button>
+                <img src="kepek/vonat.jpg" alt="" width="550px" height="300px">
+                <h2>Több száz ingyenes európai vonatjegyre pályázhatnak a 18 éves magyarok</h2>
+                <p>Forrás: Telex</p>
+                <button onclick="window.open('cikk1.html', '_blank')">Bővebben</button> <!-- Módosított sor -->
             </div>
             <div class="news-article">
                 <img src="" alt="" width="550px" height="300px">

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bővebben - Cikk</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'EgyediFont1', Arial, sans-serif; 
+            background-image: url('kepek/varos_hatter.gif'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 100vh; 
+            overflow-y: auto; 
+        }
+        
+        main {
+            display: flex;
+            justify-content: center; 
+            align-items: flex-start;
+            height: auto; 
+            padding: 20px; 
+        }
+
+        article {
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="balnav">
+                <li><img src="kepek/logo.png" alt="A híroldal logója" class="logo"></li>
+                <li><a href="index.html" class="navbar-title">Névtelen Hírek</a></li> 
+            </ul>
+            <ul class="kategoria">
+                <li><a href="index.html" onclick="filterArticles('all')">Főoldal</a></li> 
+                <li><a href="#sport" onclick="filterArticles('sport')">Sport</a></li>
+                <li><a href="#politika" onclick="filterArticles('politika')">Politika</a></li>
+                <li><a href="#gazdasag" onclick="filterArticles('gazdasag')">Gazdaság</a></li>
+            </ul>
+            <ul class="jobbnav">
+                <li><p>Bejelentkezés</p></li>
+            </ul>
+        </nav>               
+    </header>
+    <main>
+        <article>
+            <h1>Több száz ingyenes európai vonatjegyre pályázhatnak a 18 éves magyarok</h1>
+            <img src="kepek/vonat.jpg" alt="Vonat" width="100%" height="auto">
+            <p>Az Európai Bizottság szerdán nyitotta meg a DiscoverEU program legújabb pályázati körét, közölte az uniós testület. A programban az idén 18 évesek között osztanak ki ingyenes utazási igazolványokat, amiket jövő tavasszal használhatnak fel.</p>
+            <p>A 2006. január 1. és december 31. között született fiatalok az EU-ból és az Erasmus+ program társult országaiból összesen 35 500 (Magyarországról 779) utazási igazolványra pályázhatnak. </p>
+            <p>Ehhez először az Európai Ifjúsági Portálon kell kitölteniük egy kvízt, ami öt, EU-ról szóló kérdést tartalmaz, valamint egy további kérdésre is válaszolniuk kell. A pályázókat az Európai Bizottság a válaszok alapján rangsorolja és ez alapján osztja ki az utazási igazolványokat. A jelentkezési határidő október 16., déli 12 óra.</p>
+            <p>A sikeres pályázók 2025. március 1. és 2026. május 31. között legfeljebb 30 napig utazhatnak majd Európa-szerte. Az ingyenes utazási igazolvány mellett a résztvevők kapnak egy kedvezménykártyát is, amellyel több mint 40000 szállást, tömegközlekedési, kulturális, étkezési, sport- és egyéb szolgáltatást vehetnek igénybe kedvezményesen.</p>            
+        </article>
+    </main>
+    <footer>
+        <ul>
+            <li><p>Plasku Dominik</p></li>
+            <li><p>Borsodi István</p></li>
+            <li><p>Cserni Boglárka Anna</p></li>
+            <li><p>Nagy Péter</p></li>
+        </ul>
+    </footer>
+</body>
+</html>

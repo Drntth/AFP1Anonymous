@@ -10,7 +10,7 @@ newsArticles.forEach(article => {
     });
 });
 
-// kategóriák megjelenítése
+// Kategóriák megjelenítése
 function filterArticles(category) {
     // Elrejti az összes kategóriát
     var containers = document.querySelectorAll('.news-container');

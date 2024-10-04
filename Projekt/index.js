@@ -15,19 +15,22 @@ function filterArticles(category) {
     // Elrejti az összes kategóriát
     var containers = document.querySelectorAll('.news-container');
     containers.forEach(function(container) {
-        container.style.display = 'none';
+        container.style.visibility = 'hidden';
+        container.style.position = 'absolute';
     });
 
     // Ha 'all' van kiválasztva, megjelenít minden cikket
     if (category === 'all') {
         containers.forEach(function(container) {
-            container.style.display = 'block';
+            container.style.visibility = 'visible';
+            container.style.position = 'static';
         });
     } else {
         // Csak a kiválasztott kategória elemeit jeleníti meg
         var selectedContainers = document.querySelectorAll('.' + category);
         selectedContainers.forEach(function(container) {
-            container.style.display = 'block';
+            container.style.visibility = 'visible';
+            container.style.position = 'static';
         });
     }
 }

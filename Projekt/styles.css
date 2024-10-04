@@ -1,6 +1,6 @@
 :root {
     --navbar-color: grey;
-    --hover-color: blue;
+    --hover-color: rgb(112, 112, 112);
     --text-color: black;
 }
 
@@ -97,7 +97,7 @@ nav ul.kategoria li a {
 }
 
 nav ul.kategoria li a:hover {
-    background-color: var(--hover-color); 
+    color: var(--hover-color); 
 }
 
 nav ul.balnav {
@@ -108,7 +108,7 @@ nav ul.balnav {
 }
 
 nav ul.balnav li a:hover {
-    background-color: var(--hover-color);
+    color: var(--hover-color);
 }
 
 nav .jobbnav {
@@ -116,7 +116,7 @@ nav .jobbnav {
 }
 
 nav ul.jobbnav li p:hover {
-    background-color: var(--hover-color);
+    color: var(--hover-color);
 }
 
 footer {

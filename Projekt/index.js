@@ -104,7 +104,7 @@ function rate(stars) {
     const dingSound = document.getElementById('ding-sound'); 
     dingSound.play(); 
 
-    setTimeout(closePopup, 700);
+    setTimeout(closePopup, 5000);
 }
 
 function highlightStars(stars) {

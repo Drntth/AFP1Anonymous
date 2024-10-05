@@ -52,6 +52,31 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}
         document.getElementById('temperature').innerText = 'Hiba az adatok betöltésekor';
     });
 
+// HUF-USD árfolyam API
+async function fetchExchangeRate() {
+    const apiKey = '0bbc98743c169d510d84f42d';
+    const url = `https://api.exchangerate-api.com/v4/latest/USD`; 
+
+    try {
+        const response = await fetch(url);
+        const data = await response.json();
+        
+       
+        if (data.rates.HUF) {
+            const exchangeRate = data.rates.HUF;
+            document.getElementById('exchange-rate').innerText = `1 USD = ${exchangeRate.toFixed(2)} HUF`;
+        } else {
+            document.getElementById('exchange-rate').innerText = 'Árfolyam nem elérhető';
+        }
+    } catch (error) {
+        console.error('Hiba történt az árfolyam lekérdezésekor:', error);
+        document.getElementById('exchange-rate').innerText = 'Hiba az árfolyam lekérdezésekor';
+    }
+}
+
+
+fetchExchangeRate();
+
 
 
 

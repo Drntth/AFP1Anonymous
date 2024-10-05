@@ -7,6 +7,23 @@
     <title>Híroldal</title>
 </head>
 <body>
+    <audio id="ding-sound" src="hangok/ding.mp3" preload="auto"></audio>
+    <div id="rating-popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2>Értékelje a weboldalt!</h2>
+            <div class="stars">
+                <span class="star" onclick="rate(1)">★</span>
+                <span class="star" onclick="rate(2)">★</span>
+                <span class="star" onclick="rate(3)">★</span>
+                <span class="star" onclick="rate(4)">★</span>
+                <span class="star" onclick="rate(5)">★</span>
+            </div>
+            <p id="feedback"></p>
+        </div>
+    </div>
+       
+    </div>
     <header>
         <nav>
             <ul class="balnav">

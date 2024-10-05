@@ -76,7 +76,60 @@ async function fetchExchangeRate() {
 
 
 fetchExchangeRate();
+// A pop-up megjelenítése 30 másodperc múlva
+setTimeout(showPopup, 30000);
+
+function showPopup() {
+    document.getElementById('rating-popup').style.display = 'flex';
+}
+
+function closePopup() {
+    document.getElementById('rating-popup').style.display = 'none';
+}
+
+function rate(stars) {
+    const feedback = document.getElementById('feedback');
+    
+    const starElements = document.querySelectorAll('.star');
+    starElements.forEach((star, index) => {
+        if (index < stars) {
+            star.classList.add('selected'); 
+        } else {
+            star.classList.remove('selected');
+        }
+    });
+
+    feedback.innerText = `Köszönjük az értékelést: ${stars} csillag!`;
+
+    const dingSound = document.getElementById('ding-sound'); 
+    dingSound.play(); 
+
+    setTimeout(closePopup, 700);
+}
+
+function highlightStars(stars) {
+    const starElements = document.querySelectorAll('.star');
+    starElements.forEach((star, index) => {
+        if (index < stars) {
+            star.classList.add('selected'); 
+        } else {
+            star.classList.remove('selected'); 
+        }
+    });
+}
 
 
+const starElements = document.querySelectorAll('.star');
+starElements.forEach((star, index) => {
+    star.addEventListener('mouseover', () => highlightStars(index + 1)); 
+    star.addEventListener('mouseout', () => rate(currentRating)); 
+});
 
+let currentRating = 0; 
 
+starElements.forEach((star, index) => {
+    star.addEventListener('click', () => {
+        currentRating = index + 1; 
+        rate(currentRating); 
+    });
+});

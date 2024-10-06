@@ -17,6 +17,7 @@ function filterArticles(category) {
     containers.forEach(function(container) {
         container.style.visibility = 'hidden';
         container.style.position = 'absolute';
+        container.style.display = 'none';
     });
 
     // Ha 'all' van kiválasztva, megjelenít minden cikket
@@ -24,6 +25,7 @@ function filterArticles(category) {
         containers.forEach(function(container) {
             container.style.visibility = 'visible';
             container.style.position = 'static';
+            container.style.display = 'flex';
         });
     } else {
         // Csak a kiválasztott kategória elemeit jeleníti meg
@@ -31,6 +33,7 @@ function filterArticles(category) {
         selectedContainers.forEach(function(container) {
             container.style.visibility = 'visible';
             container.style.position = 'static';
+            container.style.display = 'flex';
         });
     }
 }
@@ -133,3 +136,88 @@ starElements.forEach((star, index) => {
         rate(currentRating); 
     });
 });
+
+// Cikk betöltése a főoldalon
+fetch('cikkek.json')
+        .then(response => response.json())
+        .then(data => {
+            // Cikkek megjelenítése a főoldalon
+            for (const cikkId in data) {
+                const cikk = data[cikkId];
+                const cikkElement = document.getElementById(cikkId);
+                
+                if (cikkElement) {
+                    // Cím, forrás és kép beállítása
+                    cikkElement.querySelector('h2').innerText = cikk.title;
+                    cikkElement.querySelector('p').innerText = cikk.source;
+                    cikkElement.querySelector('img').src = cikk.image;
+                    
+                    // Gombra kattintás esetén átirányítás a cikk oldalára
+                    cikkElement.querySelector('button').onclick = function() {
+                        window.location.href = `politikaiCikk.html?id=${cikkId}`;
+                    };
+                }
+            }
+            // Kategória betöltése a URL-ből
+        const urlParams = new URLSearchParams(window.location.search);
+        const category = urlParams.get('category') || 'all'; // alapértelmezett érték 'all'
+        filterArticles(category); // Kategória szűrés hívása
+    })    
+    .catch(error => console.error('Hiba történt a cikkek betöltésekor:', error));
+
+// URL-ből az azonosító kinyerése
+const urlParams = new URLSearchParams(window.location.search);
+const cikkId = urlParams.get('id');
+
+// Cikk betöltése
+fetch('cikkek.json')
+    .then(response => response.json())
+    .then(data => {
+        const cikk = data[cikkId];
+        if (cikk) {
+            document.getElementById('article-title').innerText = cikk.title;
+            document.getElementById('article-image').src = cikk.image;
+            document.getElementById('article-source').innerText = cikk.source;
+            document.getElementById('article-content').innerText = cikk.content;
+        } else {
+            document.getElementById('article-container').innerText = 'Cikk nem található.';
+        }
+    })
+    .catch(error => console.error('Hiba történt a cikkek betöltésekor:', error));
+
+// Cikk content feldarabolása
+function formatContent(content) {
+    // Darabolás új sor karakterek alapján
+    const paragraphs = content.split('\n');
+    let formattedContent = '';
+
+    paragraphs.forEach(paragraph => {
+        if (paragraph.trim()) {
+            formattedContent += `<p>${paragraph.trim()}</p>`;
+        }
+    });
+
+    return formattedContent;
+}
+
+
+
+fetch('cikkek.json')
+.then(response => response.json())
+.then(data => {
+    const cikkId = urlParams.get('id');
+    const cikk = data[cikkId];
+    if (cikk) {
+        document.getElementById('article-title').innerText = cikk.title;
+        document.getElementById('article-image').src = cikk.image;
+        document.getElementById('article-source').innerText = cikk.source;
+
+        const formattedContent = formatContent(cikk.content);
+        document.getElementById('article-content').innerHTML = formattedContent;
+    } else {
+        document.getElementById('article-container').innerText = 'Cikk nem található.';
+    }
+})
+.catch(error => console.error('Hiba történt a cikkek betöltésekor:', error));
+
+    

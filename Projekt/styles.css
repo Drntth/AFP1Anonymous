@@ -2,6 +2,7 @@
     --navbar-color: grey;
     --hover-color: rgb(112, 112, 112);
     --text-color: black;
+    --article-background: rgba(255, 255, 255, 0.9);
 }
 
 body {
@@ -13,8 +14,10 @@ body {
     background-image: url('kepek/varos_hatter.gif'); 
     background-size: cover; 
     background-position: center; 
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
+
 .balnav {
     display: flex;
     align-items: center; 
@@ -55,6 +58,7 @@ header {
 
 main {
     flex: 1;
+    background-color: transparent;
 }
 
 nav {
@@ -123,7 +127,7 @@ footer {
     background-color: #333; 
     display: flex;
     justify-content: center;
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -178,6 +182,7 @@ footer ul li a {
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 45px;
+    margin-bottom: 100px;
 }
   
 .news-article {
@@ -202,6 +207,8 @@ footer ul li a {
     object-fit: cover;
     border-radius: 10px;
     border: 5px solid black;
+    width: 94%;
+    height: 70%;
 }
   
 .news-article h2 {

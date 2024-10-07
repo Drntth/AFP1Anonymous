@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gazdasági Cikk</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="gazdasagcikkek.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="balnav">
+                <li><img src="kepek/logo.png" alt="A híroldal logója" class="logo"></li>
+                <li><a href="index.html?category=all" class="navbar-title" onclick="filterArticles('all')">Névtelen Hírek</a></li>
+                <li>
+                    <div id="temperature" style="color: white; font-size: 20px; margin-left: 20px;">
+                        <img src="kepek/idojaras.png" alt="Időjárás ikon" width="30px" height="30px" style="vertical-align: middle; margin-right: 10px;">
+                        Betöltés...
+                    </div>
+                </li>
+            </ul>
+            <ul class="kategoria">
+                <li><a href="index.html?category=all" onclick="filterArticles('all')">Főoldal</a></li>
+                <li><a href="index.html?category=sport" onclick="filterArticles('sport')">Sport</a></li>
+                <li><a href="index.html?category=politika" onclick="filterArticles('politika')">Politika</a></li>
+                <li><a href="index.html?category=gazdasag" onclick="filterArticles('gazdasag')">Gazdaság</a></li>
+            </ul>            
+            <ul class="jobbnav">
+                <li><p>Bejelentkezés</p></li>
+            </ul>
+        </nav>               
+    </header>
+    <main id="article-container">        
+        <h2 id="article-title"></h2>
+        <img id="article-image" src="" alt="Cikk kép" style="max-width: 100%;">
+        <p id="article-content"></p>
+        <p id="article-source"></p>
+    </main>
+    <footer>
+        <ul>
+            <li><p>Plasku Dominik</p></li>
+            <li><p>Borsodi István</p></li>
+            <li><p>Cserni Boglárka Anna</p></li>
+            <li><p>Nagy Péter</p></li>
+        </ul>
+    </footer>
+    <script src="index.js" defer></script>
+</body>
+</html>

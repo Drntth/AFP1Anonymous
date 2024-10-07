@@ -1,0 +1,34 @@
+#article-container {
+    max-width: 800px; 
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--article-background);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#article-content {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+
+#article-source {
+    font-size: 14px;
+    color: var(--text-color);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#article-image {
+    display: block;
+    margin: 0 auto 15px;
+    border-radius: 5px;
+}
+
+#article-title {
+    font-size: 24px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+    text-align: center;
+}

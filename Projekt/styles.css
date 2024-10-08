@@ -182,7 +182,7 @@ footer ul li a {
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 45px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
   
 .news-article {
@@ -338,4 +338,22 @@ footer ul li a {
 .star:hover {
     color: gold; 
     transform: scale(1.2); 
+}
+
+#pagination button {
+    background-color: black;
+    color: #fff;
+    border: 3px solid #666;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 150px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+  
+#pagination button:hover {
+    background-color: #666;
+    border: 3px solid black;
 }

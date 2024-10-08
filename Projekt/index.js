@@ -221,3 +221,78 @@ fetch('cikkek.json')
 .catch(error => console.error('Hiba történt a cikkek betöltésekor:', error));
 
     
+document.addEventListener("DOMContentLoaded", function() {
+    const newsContainers = document.querySelectorAll('.news-container');
+    const newsPerPage = 2;
+    let currentPage = 1;
+    let totalPages = Math.ceil(newsContainers.length / newsPerPage);
+
+    function renderPage(page) {
+        newsContainers.forEach(container => {
+            container.style.display = 'none';
+        });
+
+        const start = (page - 1) * newsPerPage;
+        const end = start + newsPerPage;
+        for (let i = start; i < end && i < newsContainers.length; i++) {
+            newsContainers[i].style.display = 'flex';
+        }
+
+        document.getElementById('prev-btn').disabled = page === 1;
+        document.getElementById('next-btn').disabled = page === totalPages;
+    }
+
+    function updatePagination() {
+        const visibleContainers = document.querySelectorAll('.news-container[style*="flex"]');
+        totalPages = Math.ceil(visibleContainers.length / newsPerPage);
+        currentPage = 1;
+        renderPage(currentPage);
+    }
+
+    function filterArticles(category) {
+        const containers = document.querySelectorAll('.news-container');
+        containers.forEach(function(container) {
+            container.style.display = 'none';
+        });
+
+        const pagination = document.getElementById('pagination');
+
+        if (category === 'all') {
+            containers.forEach(function(container) {
+                container.style.display = 'flex';
+            });
+            
+            if (pagination) {
+                pagination.style.display = 'block';
+            }
+            updatePagination();
+        } else {
+            const selectedContainers = document.querySelectorAll('.' + category);
+            selectedContainers.forEach(function(container) {
+                container.style.display = 'flex';
+            });
+
+            if (pagination) {
+                pagination.style.display = 'none';
+            }
+        }
+    }
+
+    document.getElementById('prev-btn').addEventListener('click', function() {
+        if (currentPage > 1) {
+            currentPage--;
+            renderPage(currentPage);
+        }
+    });
+
+    document.getElementById('next-btn').addEventListener('click', function() {
+        if (currentPage < totalPages) {
+            currentPage++;
+            renderPage(currentPage);
+        }
+    });
+
+    renderPage(currentPage);
+    document.getElementById('pagination').style.display = 'none';
+    window.filterArticles = filterArticles;
+});
